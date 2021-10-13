@@ -1,0 +1,255 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+.header {
+	position: relative;
+	display: flex;	
+	justify-content: space-between;
+	max-width: 1420px;
+	height: 110px;	
+	margin: 0 auto;	
+}
+.header_block1 {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+.header_block2 {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+.header_decor {
+	position: relative;
+	margin-left: 20px;
+	margin-top: 33px;	
+}
+.header_logo {
+	position: relative;
+	top: 0;
+	left: 0;	
+}
+.header_decor1 {		
+	align-self: self-end;
+	margin-bottom: -2px;	
+}
+.header_decor2 {
+	align-self: self-end;
+	margin-bottom: -2px;
+}
+.header_contacts {
+	position: relative;	
+	font-family: Roboto, 'sans-serif';
+	font-size: 14px;
+	line-height: 21px;
+}
+.header_contacts span{
+	display: block;
+	min-width: 175px;
+	margin-right: 10px;	
+}
+.header_button {	
+	position: relative;	
+	width: 245px;
+	height: 60px;
+	background: linear-gradient(0deg, #00A87C, #00A87C), linear-gradient(180deg, #EBECF0 0%, rgba(235, 236, 240, 0) 100%);;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-family: Roboto, 'sans-serif';
+	color: #ffffff;
+	margin-right: 20px;
+}
+.header_button:hover {
+	background: #7fde21
+}
+.header_button_img1 {
+	margin-left: 20px;
+}
+.header_button_img2 {
+	position: absolute;
+	right: 0;
+	margin-right: 20px;
+}
+.header_button span{
+	margin-left: 15px;
+}
+main {	
+	position: relative;
+	width: 100%;
+}
+.main_section1 {
+	display: flex;
+	justify-content: center;
+	width: 100%;	
+	background: #046FB7;
+}
+.background_section1 {
+	display: flex;
+	justify-content: right;
+	flex-direction: row-reverse;
+	max-width: 1420px;
+	height: 100%;	
+}
+.section1_decor {
+	box-sizing: border-box;
+}
+.section1_photo {
+	border-radius: 50% 0 50% 50%;	
+}
+.section1_decor2 {
+	position: relative;
+	top: 300px;
+	width: 75px;
+	height: 75px;
+	border-radius: 50% 0 50% 50%;
+	background-color: #00A87C;
+	margin-right: -45px;	
+}
+.section1_title {
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.section1_titlen_span1 {
+	display: block;
+	color: #ffffff;
+	font-family: 'Arial';
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.section1_titlen_span2 {
+	display: block;
+	color: #ffffff;
+	text-transform: uppercase;	
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 40px;
+}
+.section1_title_span3 {		
+	color: white;
+	text-transform: uppercase;	
+	font-family: 'Arial';	
+	font-weight: 600;
+	font-size: 16px;
+}
+.section1_title_span4 {		
+	vertical-align: bottom;
+	color: white;	
+	font-family: 'Arial';
+	font-style: normal;	
+	font-size: 16px;
+}
+.section1_decor3 {	
+	width: 75px;
+	height: 75px;
+	border-radius: 50% 0 50% 50%;
+	background-color: #00A87C;	
+	margin-right: 20px;
+}
+.section1_decor3 img {
+	width: 50px;
+	margin: 5px 0 0 10px;	
+}
+.section1_title_parametr {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+.section1_title_parametr > div {
+	display: flex;
+}
+.section1_title_parametr > div > div {
+	display: flex;
+}
+.section1_parametr_span1 {
+	display: block;
+	color: white;
+	text-transform: uppercase;	
+	font-family: 'Arial';	
+	font-weight: 600;
+	font-size: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.section1_parametr {	
+	max-width: 300px;
+}
+.section1_button {	
+	width: 165px;
+	height: 44px;	
+	box-shadow: inset 0px 6px 6px rgba(0, 0, 0, 0.25);
+	background: #FF5F79;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Arial';
+	color: #ffffff;
+	z-index: 3;
+}
+.section1_button img {
+	margin: 10px;
+}
+.section1_button:hover {
+	background-color: #ff0000;
+}
+.main_section3 {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	height: 485px;
+	background: #F8F8FB;
+}
+footer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 80px;	
+	background: #046FB7;
+}
+footer div {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 30px;	
+}
+footer div img {
+	vertical-align: middle;
+	margin-left: 20px;
+}
+footer div a {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;		
+	font-family: 'Arial';	
+	color: #ffffff;
+	margin-left: 10px;
+}
+footer div div a:hover {
+	text-decoration: underline;	
+}
+@media screen and (max-device-width: 800px) {
+		.header_decor {
+		display: none;
+	}
+		.header_decor1 {
+		display: none;
+	}
+	.section1_photo {
+		display: none;
+	}
+	.section1_decor2 {
+		display: none;
+	}
+}
